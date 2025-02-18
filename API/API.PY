@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 # Set up API key
-genai.configure(api_key="AIzaSyBHCsh0ypLPdXpQRmd9EtpL9C1Z09BxNTI")
+genai.configure(api_key="API Key")
 
 def generate_code_explanation(code_snippet):
     try:
